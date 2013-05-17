@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- // <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script> -->
+  <!-- <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' /> -->
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
+  <![endif]-->
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+ <!--[if lte IE 8]>
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+ <![endif]-->
+  <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+  <script src="data.geojson" type="text/javascript"></script>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+<style>
+
+
+</style>
+<div id='map'></div>
+<script>
+
+// Check http://meigwilym.com/custom-marker-controls-with-mapbox-and-leafletjs/
+
+    var cities = new L.LayerGroup();
+
+    // console.debug(bicycleRental);
+
+    var groupA = L.layerGroup();
+    var groupB = L.layerGroup();
+
+    var geo = L.geoJson(bicycleRental, {
+      onEachFeature: function(feature, layer) {
+        console.debug(feature);
+
+        if (feature.properties.tags) {
+          // console.debug(feature.properties.tags[0]);
+          //
+                  // console.debug(feature.properties.tags);
+
+          if ($.inArray("A", feature.properties.tags) != -1) {
+            // console.debug(feature.properties);
+            groupA.addLayer(layer);
+          }
+
+          if ($.inArray("B", feature.properties.tags) != -1) {
+
+            console.debug(feature.properties);
+
+            groupB.addLayer(layer);
+          }
+        }
+
+      }
+    });
+    // console.debug(groupA);
+    // console.debug(groupB);
+
+      L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities),
+    L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities),
+    L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities),
+    L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
+
+
+      var cmAttr = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+      cmUrl = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png';
+
+      // var minimal   = L.tileLayer(cmUrl, {styleId: 22677, attribution: cmAttr}),
+        // midnight  = L.tileLayer(cmUrl, {styleId: 999,   attribution: cmAttr}),
+        motorways = L.tileLayer(cmUrl, {styleId: 46561, attribution: cmAttr});
+
+    var map = L.map('map', {
+      center: [39.73, -104.99],
+      zoom: 13,
+      layers: [groupA]
+    });
+
+    var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+      key: 'BC9A493B41014CAABB98F0471D759707',
+      styleId: 22677
+    }).addTo(map);
+
+    // var baseLayers = {
+      // "Minimal": minimal,
+      // "Night View": midnight
+    // };
+
+    // var overlays = {
+    //   "Motorways": motorways,
+    //   "Cities": cities
+    // };
+
+    var overlays = {
+      "A": groupA,
+      "B": groupB
+    };
+
+    L.control.layers([],overlays).addTo(map);
+
+
+
+</script>
+</body>
+</html>

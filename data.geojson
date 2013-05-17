@@ -1,0 +1,65 @@
+var bicycleRental = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9998241,
+                    39.7471494
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Point A",
+                "tags": ["A"]
+            },
+            "id": 51
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9983545,
+                    39.7502833
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Point A (again)",
+                "tags": ["A", "B"]
+            },
+            "id": 52
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9963919,
+                    39.7444271
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "And Point A (again!!!)",
+                "tags": ["A"]
+            },
+            "id": 54
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.9960754,
+                    39.7498956
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": "Point B",
+                "tags": ["B"]
+            },
+            "id": 55
+        }
+    ]
+};
