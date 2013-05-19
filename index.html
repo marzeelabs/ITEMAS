@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- // <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script> -->
-  <!-- <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' /> -->
-  <!--[if lte IE 8]>
-    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
-  <![endif]-->
-
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
  <!--[if lte IE 8]>
@@ -15,9 +10,13 @@
  <![endif]-->
   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
   <!-- // <script src="data.geojson" type="text/javascript"></script> -->
+
+  <script src="lib/L.GeoSearch/js/l.control.geosearch.js"></script>
+  <script src="lib/L.GeoSearch/js/l.geosearch.provider.google.js"></script>
+  <link rel="stylesheet" href="lib/L.GeoSearch/css/l.geosearch.css" />
+
   <script src="data/itemas_es_final_single.geojson" type="text/javascript"></script>
 
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
   <style>
     body { margin:0; padding:0; }
@@ -31,11 +30,6 @@
 </style>
 <div id='map'></div>
 <script>
-
-// Check http://meigwilym.com/custom-marker-controls-with-mapbox-and-leafletjs/
-
-    // var cities = new L.LayerGroup();
-
 
     var groups = {};
 
@@ -51,102 +45,39 @@
         var props = feature.properties;
         var area = props.area_clinica;
 
-
-
-        // if (area in groups) {
-        // if ($.inArray(area, groups) != -1) {
+        // Add to the correct area layer group
         if (!groups.hasOwnProperty(area)) {
           groups[area] = L.layerGroup();
         }
-
         groups[area].addLayer(layer);
-
-
-        // console.debug(groups);
-
-
-        // groupA.addLayer(layer);
 
         // Popup HTML
         var html = '<h3>' + props.data.insticucion.standard + '</h3>';
           // 'Descripción: ' + props.data.proyecto.descripcion;
         layer.bindPopup(html);
 
-        // if (feature.properties.tags) {
-        //   // console.debug(feature.properties.tags[0]);
-        //   //
-        //           // console.debug(feature.properties.tags);
-
-        //   if ($.inArray("A", feature.properties.tags) != -1) {
-        //     // console.debug(feature.properties);
-        //     groupA.addLayer(layer);
-        //   }
-
-        //   if ($.inArray("B", feature.properties.tags) != -1) {
-
-        //     console.debug(feature.properties);
-
-        //     groupB.addLayer(layer);
-        //   }
-
-        //   groupA.addLayer(layer);
-        // }
-
       }
     });
 
-    // console.debug(groups);
-
-    // console.debug(groupA);
-    // console.debug(groupB);
-
-      // L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities),
-    // L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities),
-    // L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities),
-    // L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
-
-
-      var cmAttr = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-      cmUrl = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png';
-
-      // var minimal   = L.tileLayer(cmUrl, {styleId: 22677, attribution: cmAttr}),
-        // midnight  = L.tileLayer(cmUrl, {styleId: 999,   attribution: cmAttr}),
-        // motorways = L.tileLayer(cmUrl, {styleId: 46561, attribution: cmAttr});
-
     var map = L.map('map', {
-      center: [39.73, -104.99],
-      zoom: 3,
-      // layers:
+      center: [40.47, -3.59],
+      zoom: 6,
     });
 
+    new L.Control.GeoSearch({
+      provider: new L.GeoSearch.Provider.Google(),
+      zoomLevel: 12,
+      searchLabel: "buscar..."
+    }).addTo(map);
+
     var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
-      attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+      // attribution: 'Developed by <a href="http://marzeelabs.org" target="_blank">Marzee Labs</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+      attribution: 'Developed by <a href="http://openconsortium.eu" target="_blank">Open Consortium</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
       key: 'BC9A493B41014CAABB98F0471D759707',
       styleId: 22677
     }).addTo(map);
 
-    // var baseLayers = {
-      // "Minimal": minimal,
-      // "Night View": midnight
-    // };
-
-    // var overlays = {
-    //   "Motorways": motorways,
-    //   "Cities": cities
-    // };
-
-
-
-    // var overlays = {
-    //   "A": groupA,
-    //   "B": groupB
-    // };
-
-    // L.control.layers([],overlays).addTo(map);
     L.control.layers([],groups).addTo(map);
-
-
-
 </script>
 </body>
 </html>
