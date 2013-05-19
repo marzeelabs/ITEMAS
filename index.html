@@ -21,6 +21,16 @@
   <style>
     body { margin:0; padding:0; }
     #map { position:absolute; top:0; bottom:0; width:100%; }
+
+  .oc-logo {
+    display: inline-block;
+    width: 108px;
+    height: 20px;
+    line-height: 20px;
+    background: url(assets/images/oc-power.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+  }
   </style>
 </head>
 <body>
@@ -72,7 +82,7 @@
 
     var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
       // attribution: 'Developed by <a href="http://marzeelabs.org" target="_blank">Marzee Labs</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-      attribution: 'Developed by <a href="http://openconsortium.eu" target="_blank">Open Consortium</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+      attribution: '<b>Developed by <a href="http://openconsortium.eu/" target="_blank" class="oc-logo">Open Consortium</a>.</b> Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
       key: 'BC9A493B41014CAABB98F0471D759707',
       styleId: 22677
     }).addTo(map);
