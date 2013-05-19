@@ -7,12 +7,15 @@
     <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
   <![endif]-->
 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
  <!--[if lte IE 8]>
      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
  <![endif]-->
   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
-  <script src="data.geojson" type="text/javascript"></script>
+  <!-- // <script src="data.geojson" type="text/javascript"></script> -->
+  <script src="data/itemas_es_final_single.geojson" type="text/javascript"></script>
 
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 
@@ -31,44 +34,76 @@
 
 // Check http://meigwilym.com/custom-marker-controls-with-mapbox-and-leafletjs/
 
-    var cities = new L.LayerGroup();
+    // var cities = new L.LayerGroup();
 
-    // console.debug(bicycleRental);
 
-    var groupA = L.layerGroup();
-    var groupB = L.layerGroup();
+    var groups = {};
 
-    var geo = L.geoJson(bicycleRental, {
+    var geo = L.geoJson(data, {
       onEachFeature: function(feature, layer) {
-        console.debug(feature);
+        // console.debug(feature);
 
-        if (feature.properties.tags) {
-          // console.debug(feature.properties.tags[0]);
-          //
-                  // console.debug(feature.properties.tags);
+        // Fix lat/lng
+        var tmp = layer._latlng.lat;
+        layer._latlng.lat = layer._latlng.lng;
+        layer._latlng.lng = tmp;
 
-          if ($.inArray("A", feature.properties.tags) != -1) {
-            // console.debug(feature.properties);
-            groupA.addLayer(layer);
-          }
+        var props = feature.properties;
+        var area = props.area_clinica;
 
-          if ($.inArray("B", feature.properties.tags) != -1) {
 
-            console.debug(feature.properties);
 
-            groupB.addLayer(layer);
-          }
+        // if (area in groups) {
+        // if ($.inArray(area, groups) != -1) {
+        if (!groups.hasOwnProperty(area)) {
+          groups[area] = L.layerGroup();
         }
+
+        groups[area].addLayer(layer);
+
+
+        // console.debug(groups);
+
+
+        // groupA.addLayer(layer);
+
+        // Popup HTML
+        var html = '<h3>' + props.data.insticucion.standard + '</h3>';
+          // 'Descripción: ' + props.data.proyecto.descripcion;
+        layer.bindPopup(html);
+
+        // if (feature.properties.tags) {
+        //   // console.debug(feature.properties.tags[0]);
+        //   //
+        //           // console.debug(feature.properties.tags);
+
+        //   if ($.inArray("A", feature.properties.tags) != -1) {
+        //     // console.debug(feature.properties);
+        //     groupA.addLayer(layer);
+        //   }
+
+        //   if ($.inArray("B", feature.properties.tags) != -1) {
+
+        //     console.debug(feature.properties);
+
+        //     groupB.addLayer(layer);
+        //   }
+
+        //   groupA.addLayer(layer);
+        // }
 
       }
     });
+
+    // console.debug(groups);
+
     // console.debug(groupA);
     // console.debug(groupB);
 
-      L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities),
-    L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities),
-    L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities),
-    L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
+      // L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities),
+    // L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities),
+    // L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities),
+    // L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
 
 
       var cmAttr = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
@@ -76,12 +111,12 @@
 
       // var minimal   = L.tileLayer(cmUrl, {styleId: 22677, attribution: cmAttr}),
         // midnight  = L.tileLayer(cmUrl, {styleId: 999,   attribution: cmAttr}),
-        motorways = L.tileLayer(cmUrl, {styleId: 46561, attribution: cmAttr});
+        // motorways = L.tileLayer(cmUrl, {styleId: 46561, attribution: cmAttr});
 
     var map = L.map('map', {
       center: [39.73, -104.99],
-      zoom: 13,
-      layers: [groupA]
+      zoom: 3,
+      // layers:
     });
 
     var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
@@ -100,12 +135,15 @@
     //   "Cities": cities
     // };
 
-    var overlays = {
-      "A": groupA,
-      "B": groupB
-    };
 
-    L.control.layers([],overlays).addTo(map);
+
+    // var overlays = {
+    //   "A": groupA,
+    //   "B": groupB
+    // };
+
+    // L.control.layers([],overlays).addTo(map);
+    L.control.layers([],groups).addTo(map);
 
 
 
