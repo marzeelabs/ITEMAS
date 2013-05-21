@@ -2,18 +2,29 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <!-- // <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+  <script src="lib/jquery.min.js"></script>
 
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+
+
+  <!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" /> -->
+  <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css" />
  <!--[if lte IE 8]>
      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
  <![endif]-->
-  <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+  <!-- // <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script> -->
   <!-- // <script src="data.geojson" type="text/javascript"></script> -->
+
+  <script src="lib/leaflet/dist/leaflet.js"></script>
+
 
   <script src="lib/L.GeoSearch/js/l.control.geosearch.js"></script>
   <script src="lib/L.GeoSearch/js/l.geosearch.provider.google.js"></script>
   <link rel="stylesheet" href="lib/L.GeoSearch/css/l.geosearch.css" />
+
+  <script src="lib/Leaflet.label/leaflet.label.js"></script>
+  <link rel="stylesheet" href="lib/Leaflet.label/leaflet.label.css" />
+
 
   <script src="data/itemas_es_final_single.geojson" type="text/javascript"></script>
 
@@ -45,23 +56,28 @@
         var props = feature.properties;
         var area = props.area_clinica;
 
+        // Popup HTML
+        var html = '<h3>' + props.data.insticucion.standard + '</h3>';
+          // 'Descripción: ' + props.data.proyecto.descripcion;
+        layer.bindPopup(html);
+        layer.bindLabel(props.data.insticucion.standard, {noHide: true});
+        // layer.bindLabel(props.data.insticucion.standard);
+
+
         // Add to the correct area layer group
         if (!groups.hasOwnProperty(area)) {
           groups[area] = L.layerGroup();
         }
         groups[area].addLayer(layer);
 
-        // Popup HTML
-        var html = '<h3>' + props.data.insticucion.standard + '</h3>';
-          // 'Descripción: ' + props.data.proyecto.descripcion;
-        layer.bindPopup(html);
 
       }
     });
 
     var map = L.map('map', {
       center: [40.47, -3.59],
-      zoom: 6,
+      zoom: 6
+      // layers: groups['Hepatología'],
     });
 
     new L.Control.GeoSearch({
@@ -78,6 +94,19 @@
     }).addTo(map);
 
     L.control.layers([],groups).addTo(map);
+
+    map.on('layeradd', function(layer) {
+      // layer.layer.showLabel();
+      console.log(layer);
+      if (layer.layer.showLabel) {
+        layer.layer.showLabel();
+      }
+    });
+
+    // groups['Hepatología'].eachLayer(function(layer) {
+    //   layer.showLabel();
+    // });
+    // console.log(groups);
 </script>
 </body>
 </html>
