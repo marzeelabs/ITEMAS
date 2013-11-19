@@ -78,7 +78,6 @@ map.on('overlayadd', function(layer) {
   drawCluster();
 });
 
-
 function drawCluster() {
   markers.clearLayers();
   for (l in layers) {
@@ -91,66 +90,72 @@ function getNameFromLayerGroup(name) {
 }
 
 function drawTable() {
-  var table = $('<table></table>').attr('id', 'table').addClass('table table-striped table-hover table-condensed');
-  var thead = $('<thead></thead');
-  var tr = $('<tr></tr>');
+  if(!getURLParameter('notable')) {
+    var table = $('<table></table>').attr('id', 'table').addClass('table table-striped table-hover table-condensed');
+    var thead = $('<thead></thead');
+    var tr = $('<tr></tr>');
 
-  columns = ['Institución', 'Área Clínica']
-  columns.forEach(function(k) {
-    var th = $('<th></th>').text(k);
-    tr.append(th);
-  });
+    columns = ['Institución', 'Área Clínica']
+    columns.forEach(function(k) {
+      var th = $('<th></th>').text(k);
+      tr.append(th);
+    });
 
-  thead.append(tr);
-  table.append(thead);
+    thead.append(tr);
+    table.append(thead);
 
-  var tbody = $('<tbody></tbody>');
-  for (l in layers) {
+    var tbody = $('<tbody></tbody>');
+    for (l in layers) {
 
-    for (i = 0, len = groups2[l].length; i < len; i++) {
-      l2 = groups2[l][i];
+      for (i = 0, len = groups2[l].length; i < len; i++) {
+        l2 = groups2[l][i];
 
-      data = l2.feature.properties.data;
+        data = l2.feature.properties.data;
 
-      var row = $('<tr></tr>');
+        var row = $('<tr></tr>');
 
-      var col1 = $('<td></td>').text(data.insticucion.original);
-      var col2 = $('<td></td>').text(l2.feature.properties.area_clinica);
+        var col1 = $('<td></td>').text(data.insticucion.original);
+        var col2 = $('<td></td>').text(l2.feature.properties.area_clinica);
 
 
-      row.append(col1);
-      row.append(col2);
+        row.append(col1);
+        row.append(col2);
 
-      tbody.append(row);
+        tbody.append(row);
 
-    };
-  }
-
-  table.append(tbody);
-
-  $('#table-wrapper').empty().append(table);
-  $('#table').tablesorter({
-    // this will apply the bootstrap theme if "uitheme" widget is included
-    // the widgetOptions.uitheme is no longer required to be set
-    theme : "bootstrap",
-    widthFixed: true,
-    headerTemplate : '{content} {icon}', // new in v2.7. Needed to add the bootstrap icon!
-
-    // widget code contained in the jquery.tablesorter.widgets.js file
-    // use the zebra stripe widget if you plan on hiding any rows (filter widget)
-    widgets : [ "uitheme", "filter", "zebra" ],
-    widgetOptions : {
-      // using the default zebra striping class name, so it actually isn't included in the theme variable above
-      // this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
-      zebra : ["even", "odd"],
-      // reset filters button
-      filter_reset : ".reset"
-      // set the uitheme widget to use the bootstrap theme class names
-      // this is no longer required, if theme is set
-      // ,uitheme : "bootstrap"
+      };
     }
 
-  });
+    table.append(tbody);
+
+    $('#table-wrapper').empty().append(table);
+    $('#table').tablesorter({
+      // this will apply the bootstrap theme if "uitheme" widget is included
+      // the widgetOptions.uitheme is no longer required to be set
+      theme : "bootstrap",
+      widthFixed: true,
+      headerTemplate : '{content} {icon}', // new in v2.7. Needed to add the bootstrap icon!
+
+      // widget code contained in the jquery.tablesorter.widgets.js file
+      // use the zebra stripe widget if you plan on hiding any rows (filter widget)
+      widgets : [ "uitheme", "filter", "zebra" ],
+      widgetOptions : {
+        // using the default zebra striping class name, so it actually isn't included in the theme variable above
+        // this is ONLY needed for bootstrap theming if you are using the filter widget, because rows are hidden
+        zebra : ["even", "odd"],
+        // reset filters button
+        filter_reset : ".reset"
+        // set the uitheme widget to use the bootstrap theme class names
+        // this is no longer required, if theme is set
+        // ,uitheme : "bootstrap"
+      }
+
+    });
+  }
+}
+
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
 }
 
 $.extend($.tablesorter.themes.bootstrap, {
