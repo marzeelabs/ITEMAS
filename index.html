@@ -2,121 +2,61 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <!-- // <script src="lib/jquery.min.js"></script> -->
+  <script src="http://codeorigin.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
 
+  <!-- Bootstrap -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="lib/tablesorter/css/theme.bootstrap.css">
 
+  <!-- Tablesorter plugin -->
+  <script src="lib/tablesorter/js/jquery.tablesorter.js"></script>
+  <script src="lib/tablesorter/js/jquery.tablesorter.widgets.js"></script>
 
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
-  <!-- <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css" /> -->
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
  <!--[if lte IE 8]>
-     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
  <![endif]-->
-  // <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
-  <!-- // <script src="data.geojson" type="text/javascript"></script> -->
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
 
-  <script src="lib/leaflet/dist/leaflet.js"></script>
-
-
+  <!-- Leaflet geosearch -->
   <script src="lib/L.GeoSearch/js/l.control.geosearch.js"></script>
   <script src="lib/L.GeoSearch/js/l.geosearch.provider.google.js"></script>
   <link rel="stylesheet" href="lib/L.GeoSearch/css/l.geosearch.css" />
 
+  <!-- Leaflet label -->
   <script src="lib/Leaflet.label/leaflet.label.js"></script>
   <link rel="stylesheet" href="lib/Leaflet.label/leaflet.label.css" />
 
+  <!-- Markercluster -->
+  <link rel="stylesheet" href="lib/Leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="lib/Leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="lib/Leaflet.markercluster/dist/MarkerCluster.Default.ie.css" /><![endif]-->
+  <script src="lib/Leaflet.markercluster/dist/leaflet.markercluster-src.js"></script>
 
+  <!-- Data -->
   <script src="data/itemas_es_final_single.geojson" type="text/javascript"></script>
 
-
-  <style>
-    body { margin:0; padding:0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
-
-  .oc-logo {
-    display: inline-block;
-    width: 108px;
-    height: 20px;
-    line-height: 20px;
-    background: url(assets/images/oc-power.png) no-repeat;
-    text-indent: -999px;
-    overflow: hidden;
-  }
-  </style>
+  <!-- General styles -->
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<style>
 
+  <div class="container-full">
+    <div class="container">
+      <div class="row">
+        <div id="map" class="col-lg-6" style="height: 600px; position: relative;"></div>
+        <div id="table-wrapper" class="col-lg-6"></div>
+      </div>
+    </div>
+  </div>
 
-</style>
-<div id='map'></div>
-<script>
-
-    var groups = {};
-
-    var geo = L.geoJson(data, {
-      onEachFeature: function(feature, layer) {
-        // console.debug(feature);
-
-        // Fix lat/lng
-        var tmp = layer._latlng.lat;
-        layer._latlng.lat = layer._latlng.lng;
-        layer._latlng.lng = tmp;
-
-        var props = feature.properties;
-        var area = props.area_clinica;
-
-        // Popup HTML
-        var html = '<h3>' + props.data.insticucion.standard + '</h3>';
-          // 'Descripción: ' + props.data.proyecto.descripcion;
-        layer.bindPopup(html);
-        layer.bindLabel(props.data.insticucion.standard, {noHide: true});
-        // layer.bindLabel(props.data.insticucion.standard);
-
-
-        // Add to the correct area layer group
-        if (!groups.hasOwnProperty(area)) {
-          groups[area] = L.layerGroup();
-        }
-        groups[area].addLayer(layer);
-
-
-      }
-    });
-
-    var map = L.map('map', {
-      center: [40.47, -3.59],
-      zoom: 6
-      // layers: groups['Hepatología'],
-    });
-
-    new L.Control.GeoSearch({
-      provider: new L.GeoSearch.Provider.Google(),
-      zoomLevel: 12,
-      searchLabel: "buscar..."
-    }).addTo(map);
-
-    var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
-      // attribution: 'Developed by <a href="http://marzeelabs.org" target="_blank">Marzee Labs</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-      attribution: '<b>Developed by <a href="http://openconsortium.eu/" target="_blank" class="oc-logo">Open Consortium</a>.</b> Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-      key: 'BC9A493B41014CAABB98F0471D759707',
-      styleId: 22677
-    }).addTo(map);
-
-    L.control.layers([],groups).addTo(map);
-
-    map.on('layeradd', function(layer) {
-      // layer.layer.showLabel();
-      console.log(layer);
-      if (layer.layer.showLabel) {
-        layer.layer.showLabel();
-      }
-    });
-
-    // groups['Hepatología'].eachLayer(function(layer) {
-    //   layer.showLabel();
-    // });
-    // console.log(groups);
-</script>
 </body>
+
+<!-- The main JS script -->
+<script src="map.js" type="text/javascript"></script>
 </html>
