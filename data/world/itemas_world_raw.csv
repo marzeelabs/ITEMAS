@@ -1,0 +1,667 @@
+tipo_entidad,institucion,pais,sector,lat,lon
+Empresa,B. Braun Surgical,Alemania,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Bayer AG,Alemania,Farma,51.165691,10.451526
+Empresa,Dr. Willmar Schwabe GmbH & Co KG,Alemania,Farma,51.165691,10.451526
+Empresa,"Biocrates Life Sciences AG, ",Austria,Biotech (Diagnóstico y equipos médicos),47.516231,14.550072
+Empresa,"Biomarker Design Forschungs GmbH, ",Austria,Biotech (Diagnóstico y equipos médicos),47.516231,14.550072
+Empresa,Biomay Produktions und Handelsaktiengesellschaft,Austria,Farma,47.516231,14.550072
+Empresa,Biomay Produktions und Handelsaktiengesellschaft,Austria,Farma,47.516231,14.550072
+Empresa,Cellzome AG,Austria,Farma,47.516231,14.550072
+Empresa,Emergentec Biodevelopment GmbH,Austria,Biotech (Diagnóstico y equipos médicos),47.516231,14.550072
+Empresa,Guger Technologies OEG,Austria,TIC,47.516231,14.550072
+Empresa,Guger Technologies OEG ,Austria,TIC,47.516231,14.550072
+Empresa,St. Jude Medical Medizintechnik (SJM) Ges.m.bH,Austria,Otros,47.516231,14.550072
+Empresa,VBC-Genomics Bioscience Research GMBH,Austria,Biotech (Diagnóstico y equipos médicos),47.516231,14.550072
+Universidad,Institut für Neurologie Universität Wien,Austria,Otros,47.516231,14.550072
+Universidad,Medizinische Universitaet Graz  ,Austria,Biotech (Diagnóstico y equipos médicos),47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,Otros,47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,E-health,47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,Otros,47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,Otros,47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,Otros,47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,Otros,47.516231,14.550072
+Universidad,Medizinische Universitaet Wien Muw,Austria,Otros,47.516231,14.550072
+Universidad,Technische Universitaet Graz ,Austria,Otros,47.516231,14.550072
+Universidad,Technische Universitaet Wien,Austria,Otros,47.516231,14.550072
+Universidad,Technische Universitaet Wien,Austria,E-health,47.516231,14.550072
+Universidad,Technische Universitaet Wien,Austria,TIC,47.516231,14.550072
+Universidad,Technische Universitaet Wien,Austria,Otros,47.516231,14.550072
+Universidad,University of Innsbruck ,Austria,Farma,47.516231,14.550072
+Centro Tecnológico,AUSTRIAN INSTITUTE OF TECHNOLOGY GMBH,Austria,Biotech (Diagnóstico y equipos médicos),47.516231,14.550072
+Centro Tecnológico,Salzburg Research Forschungsgesellschaft m.b.H. (SRFG),Austria,TIC,47.516231,14.550072
+Centro Tecnológico,TMG,Austria,TIC,47.516231,14.550072
+Empresa,"Biogazelle NV, ",Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Empresa,Diagenode SA,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Empresa,Diagenode SA,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Empresa,Henogen S.A.,Belgium,Farma,50.503887,4.469936
+Universidad,Ghent university,Belgium,Alimentación,50.503887,4.469936
+Universidad,Hôpital Erasme - Université Libre de Bruxelles,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,Interuniversitair micro-electronica centrum vzw,Belgium,Medical Devices,50.503887,4.469936
+Universidad,Katholieke Universiteit Leuven,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,Katholieke Universiteit Leuven,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,Katholieke Universiteit Leuven,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,Katholieke Universiteit Leuven,Belgium,Otros,50.503887,4.469936
+Universidad,Katholieke Universiteit Leuven,Belgium,Otros,50.503887,4.469936
+Universidad,Université Libre de Bruxelles,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,Université Libre de Bruxelles,Belgium,Otros,50.503887,4.469936
+Universidad,Université Libre de Bruxelles ,Belgium,Otros,50.503887,4.469936
+Universidad,Université Libre de Bruxelles ,Belgium,Otros,50.503887,4.469936
+Universidad,University Hospital Leuven,Belgium,Otros,50.503887,4.469936
+Universidad,University of Antwerp,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,University of Antwerp,Belgium,Otros,50.503887,4.469936
+Universidad,Vrije Universiteit Brussel,Belgium,TIC,50.503887,4.469936
+Universidad,Vrije Universiteit Brussel,Belgium,Farma,50.503887,4.469936
+Universidad,Vrije Universiteit Brussel,Belgium,Biotech (Diagnóstico y equipos médicos),50.503887,4.469936
+Universidad,Vrije Universiteit Brussel,Belgium,Farma,50.503887,4.469936
+Empresa,Agencija za Ekonomski Razvoj Opstine Prijedor Preda-PD,Bosnia and Herzegovina,Otros,43.915886,17.679076
+Empresa,Europrojekt Centar (EUPC),Bosnia and Herzegovina,TIC,43.915886,17.679076
+Empresa,Markez Nikola Savo EC,Bosnia and Herzegovina,Industrial,43.915886,17.679076
+Universidad,UNIVERZITET U BANJOJ LUCI UNI BL,Bosnia and Herzegovina,Otros,43.915886,17.679076
+Universidad,Zdravstvena ustanova Opšta Bolnica Prijedor,Bosnia and Herzegovina,Otros,43.915886,17.679076
+Universidad,Medical University of Sofia,Bulgaria,Otros,42.733883,25.48583
+Universidad,Medical University of Sofia,Bulgaria,Otros,42.733883,25.48583
+Empresa,Life Technologies,Canada,Biotech (Diagnóstico y equipos médicos),56.130366,-106.346771
+Universidad,Agriculture and agri-food Canada,Canada,Industrial,56.130366,-106.346771
+Universidad,McGill University,Canada,Otros,56.130366,-106.346771
+Universidad,NINRS Institut Armand Frappier,Canada,Otros,56.130366,-106.346771
+Universidad,University of Toronto Toronto Western Hospital,Canada,Otros,56.130366,-106.346771
+Universidad,University of Toronto Toronto Western Hospital,Canada,E-health,56.130366,-106.346771
+Empresa,CMC Tasly Group BV,China,Farma,35.86166,104.195397
+Universidad,University Hospital Sestre Milosrdnice,Croatia,Otros,45.1,15.2
+Universidad,University Hospital Zagreb,Croatia,Otros,45.1,15.2
+Universidad,Academy of Sciences of Czech Republic,Czech Republic,Biotech (Diagnóstico y equipos médicos),49.817492,15.472962
+Universidad,Charles University,Czech Republic,Otros,49.817492,15.472962
+Universidad,Faculty Hospital Bulovka,Czech Republic,Medical Devices,49.817492,15.472962
+Centro Tecnológico,Instituto Reumatología ,Czech Republic,Medical Devices,49.817492,15.472962
+Empresa,COOK (William Cook Europe ApS),Denmark,Industrial,56.26392,9.501785
+Empresa,Novo Nordisk ,Denmark,Farma,56.26392,9.501785
+Empresa,Reflab AP,Denmark,TIC,56.26392,9.501785
+Universidad,Aalborg University,Denmark,TIC,56.26392,9.501785
+Universidad,Aalborg University,Denmark,Medical Devices,56.26392,9.501785
+Universidad,"Aarhus Universitethospital, Skejby, AUH",Denmark,E-health,56.26392,9.501785
+Universidad,"CAST, University of Southern Denmark",Denmark,Otros,56.26392,9.501785
+Universidad,Københavns Universitet,Denmark,Otros,56.26392,9.501785
+Universidad,National University Hospital of Denmark,Denmark,E-health,56.26392,9.501785
+Universidad,Odense University Hospital,Denmark,E-health,56.26392,9.501785
+Universidad,University of Copenhagen,Denmark,Biotech (Diagnóstico y equipos médicos),56.26392,9.501785
+Universidad,Slovak Medical University,Eslovaquia,Otros,48.669026,19.699024
+Empresa,Ferrer Int,España,Farma,40.463667,-3.74922
+Empresa,"Grifols International , S.A.",España,Farma,40.463667,-3.74922
+Empresa,Nanotherapix ,España,Biotech (Diagnóstico y equipos médicos),40.463667,-3.74922
+Empresa,Asper Biotech,Estonia,Biotech (Diagnóstico y equipos médicos),58.595272,25.013607
+Empresa,FibroTx,Estonia,Biotech (Diagnóstico y equipos médicos),58.595272,25.013607
+Empresa,Visgenyx,Estonia,Biotech (Diagnóstico y equipos médicos),58.595272,25.013607
+Universidad,University of Tartu,Estonia,Otros,58.595272,25.013607
+Universidad,Abo Akademi- University of Turku,Finland,E-health,61.92411,25.748151
+Universidad,Helsingin Yliopisto Uh ,Finland,Otros,61.92411,25.748151
+Universidad,Itä-Suomen Yliopisto ,Finland,Otros,61.92411,25.748151
+Universidad,Kuopio University,Finland,Otros,61.92411,25.748151
+Universidad,Tampereen Yliopisto,Finland,Otros,61.92411,25.748151
+Universidad,University of Kuopio UKU Finland ,Finland,Otros,61.92411,25.748151
+Universidad,University of Turku,Finland,Otros,61.92411,25.748151
+Empresa,ANaBior,France,Nanotech,46.227638,2.213749
+Empresa,Cellartis AB,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Empresa,Cezanne,France,Nanotech,46.227638,2.213749
+Empresa,Cyclopharma,France,Farma,46.227638,2.213749
+Empresa,Genewave,France,Medical Devices,46.227638,2.213749
+Empresa,Gostai,France,Industrial,46.227638,2.213749
+Empresa,Kaizen UCD,France,Otros,46.227638,2.213749
+Empresa,Lorang Ltd,France,Otros,46.227638,2.213749
+Empresa,Praxis,France,Farma,46.227638,2.213749
+Empresa,Sanofi Aventis,France,Farma,46.227638,2.213749
+Empresa,Soluscience Sa Soluscience,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Empresa,TCLAND Expression SA,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Empresa,TCLAND Expression SA,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Universidad,CEA Insitute of Biology Technologies,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Universidad,Ecole Polytechnique Federale de Lausanne,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Universidad,Universidad Paris Descartes,France,E-health,46.227638,2.213749
+Universidad,Universite D'auvergne Clermont Ferrand,France,Otros,46.227638,2.213749
+Universidad,Université de Lille,France,Otros,46.227638,2.213749
+Universidad,Université Joseph Fourier Grenoble,France,Otros,46.227638,2.213749
+Universidad,Universite Paris Diderot,France,Otros,46.227638,2.213749
+Universidad,Universite Rene Descartes,France,Otros,46.227638,2.213749
+Universidad,Universite Rene Descartes,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Universidad,Universite Victor Segalen Bordeaux ,France,Otros,46.227638,2.213749
+Universidad,University of Angers,France,Otros,46.227638,2.213749
+Universidad,University of Montpellier,France,TIC,46.227638,2.213749
+Universidad,University of Montpellier,France,Otros,46.227638,2.213749
+Universidad,UPMC Université Paris VI,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Centro Tecnológico,Association CARDIO-MONDE ,France,Nanotech,46.227638,2.213749
+Centro Tecnológico,CEA-Grenoble,France,Nanotech,46.227638,2.213749
+Centro Tecnológico,Commisariat a l'Energie Atomique,France,E-health,46.227638,2.213749
+Centro Tecnológico,"INRIA, Institut National de Recherche en informatique et en automatique",France,TIC,46.227638,2.213749
+Centro Tecnológico,"INRIA, Institut National de Recherche en informatique et en automatique",France,TIC,46.227638,2.213749
+Centro Tecnológico,Interdisciplinary Institute for Neuroscience,France,Biotech (Diagnóstico y equipos médicos),46.227638,2.213749
+Empresa,ASD Advanced simulation & Design gmbH,Germany,TIC,51.165691,10.451526
+Empresa,Biobase,Germany,Otros,51.165691,10.451526
+Empresa,Biolution GmbH,Germany,Otros,51.165691,10.451526
+Empresa,Biomax informatics AG,Germany,TIC,51.165691,10.451526
+Empresa,Blasticon Biotechnologische Forschung GmbH,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Blasticon Biotechnologische Forschung GmbH,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Boehringer Ingelheim Pharmaceuticals,Germany,Farma,51.165691,10.451526
+Empresa,Cellgenix Gmbh,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Cellzome AG,Germany,Farma,51.165691,10.451526
+Empresa,Epigenomics AG,Germany,Nanotech,51.165691,10.451526
+Empresa,EURICE: European Research an Project Office GmbH,Germany,Otros,51.165691,10.451526
+Empresa,European Research and Project Office GmbH,Germany,Otros,51.165691,10.451526
+Empresa,Genexplain Gmbh,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Genomatix Software GmbH,Germany,TIC,51.165691,10.451526
+Empresa,Genomatix Software GmbH,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Helmholtz-Zentrum Fuer Infektionsforshung Gmbh,Germany,Otros,51.165691,10.451526
+Empresa,Investitions und Forderbank Niedersachsen NBANK Germany,Germany,Industrial,51.165691,10.451526
+Empresa,Lohmann & Birkner Health Care Consulting GmbH,Germany,Otros,51.165691,10.451526
+Empresa,Lundbeck,Germany,Farma,51.165691,10.451526
+Empresa,Medicyte GMBH,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Medpace ,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Memorec Biotec GmbH,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Memorec Biotec Gmbh,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Miltenyi Biotechnologische Forschung Gmbh,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Mosaiques Diagnostics Gmbh,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Motama GmbH,Germany,TIC,51.165691,10.451526
+Empresa,Mtm Laboratories Ag,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Pamgene International Bv,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Empresa,Pharmaceutical Research Associates Gmbh,Germany,Otros,51.165691,10.451526
+Empresa,Proscience Communications - Die Agentur Für Wissenschaftskommunikation Gmbh,Germany,Otros,51.165691,10.451526
+Empresa,Raytest,Germany,Industrial,51.165691,10.451526
+Empresa,Siemens Medical Solutions,Germany,Industrial,51.165691,10.451526
+Empresa,"Tiani ""Spirit"" GmbH",Germany,TIC,51.165691,10.451526
+Universidad,"Academisch Ziekenhuis Leiden-LUMC, Universitaet Zuerich",Germany,Otros,51.165691,10.451526
+Universidad,Charite Universitatsmedizin Berlin,Germany,Medical Devices,51.165691,10.451526
+Universidad,Charité Universitatsmedizin Berlin,Germany,Otros,51.165691,10.451526
+Universidad,Charité Universitätsmedizin Berlin,Germany,Otros,51.165691,10.451526
+Universidad,Eberhard Karls Universitaet Tuebingen,Germany,Otros,51.165691,10.451526
+Universidad,Eberhard Karls Universitaet Tuebingen,Germany,TIC,51.165691,10.451526
+Universidad,Georg-August University Goettingen Ukg-Goe,Germany,Otros,51.165691,10.451526
+Universidad,Heinrich-Heine-Universität Düsseldorf,Germany,Otros,51.165691,10.451526
+Universidad,Heinrich-Heine-Universität Düsseldorf,Germany,Otros,51.165691,10.451526
+Universidad,"Institut für Prophylaxe und Epidemiologie der Kreislaufkrankheiten-LMU, München",Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,"Institute of Pathology, University Medical Center,
+Johannes Gutenberg University",Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Johannes Gutenberg-Universität Mainz,Germany,Otros,51.165691,10.451526
+Universidad,Klinik Berlin – Freie Universität,Germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Klinikum Der Universität zu Köln,Germany,Otros,51.165691,10.451526
+Universidad,Ludwig-Maximilians-Universitaet Muenchen,Germany,Otros,51.165691,10.451526
+Universidad,Ludwig-Maximilians-Universitaet Muenchen,germany,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Medizinische Universitaet Wien Muw,Germany,Otros,51.165691,10.451526
+Universidad,Paul-Ehrlich Institut,Germany,Otros,51.165691,10.451526
+Universidad,Saarland University Usaar-Med,Germany,Otros,51.165691,10.451526
+Universidad,"Technology and Medicine Imperial, Universitätsklinikum Erlangen",Germany,Otros,51.165691,10.451526
+Universidad,Tierärztliche Hochschule Hannover (Tiho) Academic,Germany,Otros,51.165691,10.451526
+Universidad,Uneversity of Zurich,Germany,Otros,51.165691,10.451526
+Universidad,Universidad de Dresde,Germany,Medical Devices,51.165691,10.451526
+Universidad,Universidad de Göttingen,Germany,Otros,51.165691,10.451526
+Universidad,Universidad de Leipzig,Germany,Otros,51.165691,10.451526
+Universidad,Universidad de Leipzig - Klinik und Poliklinik für Psychiatrie,Germany,Otros,51.165691,10.451526
+Universidad,Universitaet des Saarlandes,Germany,Otros,51.165691,10.451526
+Universidad,Universitaet Tuebingen ,Germany,Farma,51.165691,10.451526
+Universidad,Universitaet Ulm,Germany,Otros,51.165691,10.451526
+Universidad,Universitaet zu Kiel,Germany,Otros,51.165691,10.451526
+Universidad,Universitaetsklinikum Bonn Ukb ,Germany,Otros,51.165691,10.451526
+Universidad,Universitaetsklinikum Essen,Germany,Otros,51.165691,10.451526
+Universidad,Universitätsklinikum Erlangen,Germany,Otros,51.165691,10.451526
+Universidad,Universitätsklinikum Erlangen,Germany,Otros,51.165691,10.451526
+Universidad,Universitätsklinikum Freiburg,Germany,Otros,51.165691,10.451526
+Universidad,Universitätsklinikum Heidelberg (Ukl-Hd),Germany,Otros,51.165691,10.451526
+Universidad,Universitatsmedizin der Johannes Gutenberg-Universita,Germany,Otros,51.165691,10.451526
+Universidad,"University Hospitals, Friedrich-Schiller-University Jena",Germany,Otros,51.165691,10.451526
+Universidad,University Medical Centre Groningen (Umcg) ,Germany,Otros,51.165691,10.451526
+Universidad,University Medicine Berlin,Germany,Otros,51.165691,10.451526
+Universidad,University Medicine Berlin- Charité,Germany,Otros,51.165691,10.451526
+Universidad,University Medizin Gottingen,Germany,Otros,51.165691,10.451526
+Universidad,University of Bonn,Germany,Otros,51.165691,10.451526
+Universidad,University of Frankfurt Medical School FFM,Germany,Otros,51.165691,10.451526
+Universidad,University of Konstanz,Germany,Otros,51.165691,10.451526
+Universidad,University of Munich,Germany,Otros,51.165691,10.451526
+Universidad,University of Munich ,Germany,Otros,51.165691,10.451526
+Universidad,University of Regensburg,Germany,Otros,51.165691,10.451526
+Universidad,University of Rostock,Germany,,51.165691,10.451526
+Universidad,University of Schleswig-Holstein,Germany,Otros,51.165691,10.451526
+Universidad,"University of Technology, Dresden",Germany,Otros,51.165691,10.451526
+Universidad,University Wuerzburg University Wuerzburg,Germany,Otros,51.165691,10.451526
+Centro Tecnológico,Empirica,Germany,E-health,51.165691,10.451526
+Centro Tecnológico,Fraunhofer Gesellschaft,Germany,Medical Devices,51.165691,10.451526
+Centro Tecnológico,Fraunhofer IAO,Germany,Otros,51.165691,10.451526
+Centro Tecnológico,Fraunhofer IAO,Germany,Medical Devices,51.165691,10.451526
+Centro Tecnológico,Fraunhofer Institute for Algorithms and Scientific Computing (FHG),Germany,TIC,51.165691,10.451526
+Centro Tecnológico,Fraunhofer Institute for Cell Therapy & immunology,Germany,Nanotech,51.165691,10.451526
+Centro Tecnológico,Fraunhofer MEVIS,Germany,TIC,51.165691,10.451526
+Centro Tecnológico,Institut f. Niedertemperatur-plasmaphysik Greifswald,Germany,Medical Devices,51.165691,10.451526
+Centro Tecnológico,Institut für Mikrotechnik Mainz,Germany,Medical Devices,51.165691,10.451526
+Centro Tecnológico,Max Plack Institute for Informatics,Germany,TIC,51.165691,10.451526
+Centro de Investigación,German Institute of Human Nutrition,Germany,Alimentación,51.165691,10.451526
+Universidad,Charite Universitatsmedizin Berlin,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Christian-Albrechts- Universitaet zu Kiel,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Johannes Gutenberg-Universität Mainz,Germany               ,Otros,51.165691,10.451526
+Universidad,Ludwig-Maximilians-Universitaet Muenchen,Germany               ,TIC,51.165691,10.451526
+Universidad,Medizinische Hochschule Hannover,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Otto-Von-Guericke-Universitaet Magdeburg,Germany               ,TIC,51.165691,10.451526
+Universidad,Technische Universität Dresden,Germany               ,Medical Devices,51.165691,10.451526
+Universidad,Technische Universität München,Germany               ,Medical Devices,51.165691,10.451526
+Universidad,Technische Universität München,Germany               ,Medical Devices,51.165691,10.451526
+Universidad,Universitaet des Saarlandes,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Universitaet Leipzig,Germany               ,TIC,51.165691,10.451526
+Universidad,Universitaet Rostock,Germany               ,Otros,51.165691,10.451526
+Universidad,Universitaet Ulm,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Universitaetsklinikum Essen,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,Universitaetsklinikum Freiburg,Germany               ,TIC,51.165691,10.451526
+Universidad,Universitaetsklinikum Hamburg-Eppendorf ,Germany               ,Otros,51.165691,10.451526
+Universidad,Universität Potsdam,Germany               ,Medical Devices,51.165691,10.451526
+Universidad,University of Bielefeld,Germany               ,Medical Devices,51.165691,10.451526
+Universidad,University of Freiburg,Germany               ,Biotech (Diagnóstico y equipos médicos),51.165691,10.451526
+Universidad,University of Konstanz,Germany               ,Farma,51.165691,10.451526
+Universidad,University of Oldenburg,Germany               ,TIC,51.165691,10.451526
+Universidad,University of Schleswig-Holstein,Germany               ,Otros,51.165691,10.451526
+Universidad,Westfälische Wilhelms-Universitaet Muenster,Germany               ,TIC,51.165691,10.451526
+Empresa,Intracom Telecom,Greece,TIC,39.074208,21.824312
+Empresa,Santair SA,Greece,Otros,39.074208,21.824312
+Universidad,Agricultural University of Athens,Greece,Industrial,39.074208,21.824312
+Universidad,Aristotle University of Thessaloniki,Greece,Otros,39.074208,21.824312
+Universidad,Aristotle University of Thessaloniki,Greece,Otros,39.074208,21.824312
+Universidad,Aristotle University of Thessaloniki,Greece,Otros,39.074208,21.824312
+Universidad,National Kapodistrian University of Athens,Greece,Otros,39.074208,21.824312
+Universidad,National Kapodistrian University of Athens,Greece,E-health,39.074208,21.824312
+Universidad,University of Patras,Greece,Otros,39.074208,21.824312
+Universidad,Universitat Sant Carlos de Guatemala,Guatemala,Otros,15.783471,-90.230759
+Empresa,Pharmapolis Klaszter Kft.,Hungary,Farma,47.162494,19.503304
+Empresa,Vichem Chemie Research Ltd.,Hungary,Biotech (Diagnóstico y equipos médicos),47.162494,19.503304
+Universidad,Budapest University of Technology and Economics,Hungary,Biotech (Diagnóstico y equipos médicos),47.162494,19.503304
+Universidad,Medical University of Pécs,Hungary,Medical Devices,47.162494,19.503304
+Universidad,Semmelweis Egyetem,Hungary,Otros,47.162494,19.503304
+Universidad,University of Pécs ,Hungary,Otros,47.162494,19.503304
+Universidad,University of Szeged,Hungary,Biotech (Diagnóstico y equipos médicos),47.162494,19.503304
+Empresa,deCODE Genetics,Iceland,Biotech (Diagnóstico y equipos médicos),64.963051,-19.020835
+Universidad,Landspitali University Hospital Reykjavik,Iceland,E-health,64.963051,-19.020835
+Empresa,Veeda Clinical Research,India,Farma,20.593684,78.96288
+Empresa,Cardinal Health,Ireland,TIC,53.41291,-8.24389
+Empresa,IDAC Ireland Ltd.,Ireland,TIC,53.41291,-8.24389
+Empresa,Pintail Ltd,Ireland,Otros,53.41291,-8.24389
+Empresa,Sensl,Ireland,Industrial,53.41291,-8.24389
+Universidad,Dublin City University,Ireland,Otros,53.41291,-8.24389
+Universidad,National University of Ireland (NUIG),Ireland,Otros,53.41291,-8.24389
+Universidad,National University of Ireland (NUIG),Ireland,Farma,53.41291,-8.24389
+Universidad,National University of Ireland (NUIG),Ireland,Farma,53.41291,-8.24389
+Universidad,Royal College of Surgeons in Ireland,Ireland,Biotech (Diagnóstico y equipos médicos),53.41291,-8.24389
+Universidad,Trinity College Dublin,Ireland,Otros,53.41291,-8.24389
+Universidad,"University College Cork, National University of Ireland",Ireland,Otros,53.41291,-8.24389
+Universidad,University College Dublin,Ireland,Otros,53.41291,-8.24389
+Universidad,University College Dublin,Ireland,Otros,53.41291,-8.24389
+Universidad,University of Ulster,Ireland,Biotech (Diagnóstico y equipos médicos),53.41291,-8.24389
+Empresa,IBM Israel-Science and technology Ltd (International Business Machines),Israel,TIC,31.046051,34.851612
+Empresa,Teva Innovative Ventures,Israel,Farma,31.046051,34.851612
+Universidad,The Hebrew University of Jerusalem,Israel,Medical Devices,31.046051,34.851612
+Universidad,The Hebrew University of Jerusalem,Israel,Otros,31.046051,34.851612
+Universidad,University of Haifa,Israel,TIC,31.046051,34.851612
+Centro Tecnológico,Weizmann Institute of Science,Israel,TIC,31.046051,34.851612
+Empresa,Ab-Acus S.R.L. ,Italy,E-health,41.87194,12.56738
+Empresa,Advanced Computer Systems A.C.S. S.P.A. ACS,Italy,TIC,41.87194,12.56738
+Empresa,Aurelia Microelectrónica S.R.L.,Italy,Medical Devices,41.87194,12.56738
+Empresa,Caribel Programmaziones S.R.L.,Italy,E-health,41.87194,12.56738
+Empresa,CF Consulting Finanziamenti Unione Europea,Italy,Otros,41.87194,12.56738
+Empresa,"ETT s.r.l.,",Italy,TIC,41.87194,12.56738
+Empresa,MILESTONE S.R.L. (MILESTONE MEDICAL),Italy,Biotech (Diagnóstico y equipos médicos),41.87194,12.56738
+Empresa,Ridgeback,Italy,Otros,41.87194,12.56738
+Empresa,SCS srl (Supercomputing  Solutions),Italy,TIC,41.87194,12.56738
+Empresa,Siena Biotech SPA,Italy,Biotech (Diagnóstico y equipos médicos),41.87194,12.56738
+Empresa,"Signo Motus, Srl",Italy,TIC,41.87194,12.56738
+Empresa,Societa Finanzaria Laziale di Sviluppo - FI.LA.S. SPA FILAS,Italy,Otros,41.87194,12.56738
+Empresa,Technogym,Italy,Industrial,41.87194,12.56738
+Empresa,TXT e-Solutions SPA,Italy,TIC,41.87194,12.56738
+Universidad,"IRCCS FONDAZIONE OSPEDALE SAN CAMILLO
+University of Padova",Italy,E-health,41.87194,12.56738
+Universidad,Scuola Superiore Sant´Anna,Italy,Medical Devices,41.87194,12.56738
+Universidad,Seconda Universitá degli Studi di Napoli,Italy,Biotech (Diagnóstico y equipos médicos),41.87194,12.56738
+Universidad,Seconda Università degli Studi di Napoli,Italy,Otros,41.87194,12.56738
+Universidad,Universidad de Pavia,Italy,E-health,41.87194,12.56738
+Universidad,Universidad Rovira i Virgili,Italy,Otros,41.87194,12.56738
+Universidad,Università de Bologna UNIBO ,Italy,Otros,41.87194,12.56738
+Universidad,Universita degli Studi Di Milan,Italy,E-health,41.87194,12.56738
+Universidad,Università degli Studi di Milano,Italy,Otros,41.87194,12.56738
+Universidad,Università degli Studi di Napoli Federico II,Italy,Otros,41.87194,12.56738
+Universidad,Universita degli Studi di Padova,Italy,E-health,41.87194,12.56738
+Universidad,Università degli Studi di Padova,Italy,Otros,41.87194,12.56738
+Universidad,Universita degli Studi di Roma la Sapienza,Italy,Otros,41.87194,12.56738
+Universidad,Universitá degli Studi di Roma La Sapienza,Italy,Otros,41.87194,12.56738
+Universidad,Universitá degli Studi di Roma La Sapienza,Italy,Farma,41.87194,12.56738
+Universidad,Universitá degli Studi di Roma La Sapienza,Italy,Otros,41.87194,12.56738
+Universidad,Universitá degli Studi di Roma La Sapienza,Italy,Otros,41.87194,12.56738
+Universidad,Universitá degli studi di Torino,Italy,Biotech (Diagnóstico y equipos médicos),41.87194,12.56738
+Universidad,Universitá degli studi di Torino,Italy,E-health,41.87194,12.56738
+Universidad,Universitá degli studi di Torino,Italy,Otros,41.87194,12.56738
+Universidad,Universitá degli studi di Torino ,Italy,Otros,41.87194,12.56738
+Universidad,Universitá degli studi di Verona,Italy,Biotech (Diagnóstico y equipos médicos),41.87194,12.56738
+Universidad,Università di Bologna  Dipertimento di Scienze Neurologiche,Italy,Otros,41.87194,12.56738
+Universidad,University Degli study di Milano ,Italy,Otros,41.87194,12.56738
+Universidad,University of Genova,Italy,Otros,41.87194,12.56738
+Universidad,University of Insubria,Italy,Otros,41.87194,12.56738
+Universidad,University of Milan,Italy,Otros,41.87194,12.56738
+Universidad,University of Modena And Reggio Emilia,Italy,Otros,41.87194,12.56738
+Universidad,"University of Pisa
+",Italy,Otros,41.87194,12.56738
+Universidad,University of Turin,Italy,Otros,41.87194,12.56738
+Centro Tecnológico,Consorzio per l'area di Ricerca Scientifica e Tecnologica di Trieste (AREA TS),Italy,Otros,41.87194,12.56738
+Centro Tecnológico,Consorzio Piza Rierche,Italy,Medical Devices,41.87194,12.56738
+Centro Tecnológico,EUROPEAN REFERENCE LABORATORY ON ALTERNATIVES TO ANIMAL TESTING (EURL ECVAM) ,Italy,Biotech (Diagnóstico y equipos médicos),41.87194,12.56738
+Centro Tecnológico,Institute for Computing Applications of the National Research Council (CNR),Italy,TIC,41.87194,12.56738
+Centro de Investigación,Azienda Ospedaliera di Padova,Italy,Alimentación,41.87194,12.56738
+Universidad,NARA University,Japan,Biotech (Diagnóstico y equipos médicos),36.204824,138.252924
+Universidad,Paula Stradina Kliniska Universitates Slimnica,Latvia,Otros,56.879635,24.603189
+Universidad,Paula Stradina Kliniska Universitates Slimnica,Latvia,Otros,56.879635,24.603189
+Universidad,Vilnius University,Lithuania,Otros,55.169438,23.881275
+Universidad,Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirá,México ,Biotech (Diagnóstico y equipos médicos),23.634501,-102.552784
+Empresa,Agendia BV,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,Agrotechnology and food innovations B.V.,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,Batavia Bioservices BV,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,Crucell Holland BV,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,DLO - Foundation for Agriculture Research,Netherlands,Otros,52.132633,5.291266
+Empresa,Electronic Record Services B.V.,Netherlands,E-health,52.132633,5.291266
+Empresa,Hal allergy BV,Netherlands,Farma,52.132633,5.291266
+Empresa,Halo Genomics Ab,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,Janssen,Netherlands,Farma,52.132633,5.291266
+Empresa,Janssen pharmaceutica N.V.,Netherlands,Farma,52.132633,5.291266
+Empresa,KREATECH BIOTECHNOLOGY B.V. ,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,MobiHealth,Netherlands,E-health,52.132633,5.291266
+Empresa,Mrc Holland B.V.,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Empresa,PFMMedical,Netherlands,E-health,52.132633,5.291266
+Empresa,Philips electronics Nederland BV,Netherlands,Industrial,52.132633,5.291266
+Empresa,Philips electronics Nederland BV,Netherlands,Industrial,52.132633,5.291266
+Empresa,Philips electronics Nederland BV,Netherlands,Medical Devices,52.132633,5.291266
+Empresa,Unilever The Netherlands,Netherlands,Otros,52.132633,5.291266
+Empresa,ZorgGemak,Netherlands,TIC,52.132633,5.291266
+Universidad,Academisch Ziekenhuis Groningen,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,Amsterdam Medical University Center AMC,Netherlands,E-health,52.132633,5.291266
+Universidad,Amsterdam Medical University Center AMC,Netherlands,Otros,52.132633,5.291266
+Universidad,Amsterdam Medical University Center AMC,Netherlands,Otros,52.132633,5.291266
+Universidad,Erasmus Universitair Medisch Centrum Rotterdam,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,Erasmus Universitair Medisch Centrum Rotterdam,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,Erasmus Universitair Medisch Centrum Rotterdam,Netherlands,TIC,52.132633,5.291266
+Universidad,Erasmus Universitair Medisch Centrum Rotterdam,Netherlands,Otros,52.132633,5.291266
+Universidad,Erasmus Universitair Medisch Centrum Rotterdam,Netherlands,Otros,52.132633,5.291266
+Universidad,Leiden University Medical Center,Netherlands,Otros,52.132633,5.291266
+Universidad,Leiden University Medical Center,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,Leiden University Medical Center,Netherlands,Otros,52.132633,5.291266
+Universidad,Leiden University Medical Center,Netherlands,Otros,52.132633,5.291266
+Universidad,Leiden University Medical Center,Netherlands,Otros,52.132633,5.291266
+Universidad,Leiden University Medical Center,Netherlands,Farma,52.132633,5.291266
+Universidad,Radboud University Nijmegen Medical Centre,Netherlands,Otros,52.132633,5.291266
+Universidad,Radboud University Nijmegen Medical Centre,Netherlands,Otros,52.132633,5.291266
+Universidad,Stichting Katholieke Universiteit,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,Stichting Katholieke Universiteit,Netherlands,Otros,52.132633,5.291266
+Universidad,Technical Unversity of Denmark,Netherlands,TIC,52.132633,5.291266
+Universidad,Technische Universiteit Eindhoven,Netherlands,TIC,52.132633,5.291266
+Universidad,Univeristeit of Auckland,Netherlands,TIC,52.132633,5.291266
+Universidad,Universitair Medisch Centrum Utrecht,Netherlands,Medical Devices,52.132633,5.291266
+Universidad,Universitair Medisch Centrum Utrecht,Netherlands,Otros,52.132633,5.291266
+Universidad,Universitair Medisch Centrum Utrecht,Netherlands,Farma,52.132633,5.291266
+Universidad,Universiteit Twente,Netherlands,E-health,52.132633,5.291266
+Universidad,Universiteit van Amsterdam,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,University Hospital Groningen/Faculty of Medical sciences,Netherlands,Otros,52.132633,5.291266
+Universidad,University Medical Center Utrecht,Netherlands,TIC,52.132633,5.291266
+Universidad,University Medical Center Utrecht,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,University medical centre Groningen,Netherlands,Otros,52.132633,5.291266
+Universidad,University Medical Centre Nijmegen ,Netherlands,Biotech (Diagnóstico y equipos médicos),52.132633,5.291266
+Universidad,University Medical Centre Utrecht,Netherlands,Otros,52.132633,5.291266
+Universidad,University of Gröningen,Netherlands,Farma,52.132633,5.291266
+Universidad,University of Maastricht,Netherlands,Otros,52.132633,5.291266
+Universidad,University of Twente,Netherlands,Medical Devices,52.132633,5.291266
+Universidad,Vrije Universiteit Medisch Centrum,Netherlands,Otros,52.132633,5.291266
+Universidad,Wageningen University,Netherlands,Otros,52.132633,5.291266
+Universidad,Wageningen University,Netherlands,Otros,52.132633,5.291266
+Empresa,ConocoPhillips Norge ,Norway,Otros,60.472024,8.468946
+Empresa,Innovest AS,Norway,Otros,60.472024,8.468946
+Universidad,Universiteit i Oslo,Norway,Biotech (Diagnóstico y equipos médicos),60.472024,8.468946
+Universidad,University of Tromso,Norway,Biotech (Diagnóstico y equipos médicos),60.472024,8.468946
+Universidad,University of Tromso,Norway,Otros,60.472024,8.468946
+Universidad,University of Tromso,Norway,Otros,60.472024,8.468946
+Centro Tecnológico,Norvegian Center for Telemedicine(NST),Norway,E-health,60.472024,8.468946
+Centro Tecnológico,SINTEF ICT,Norway,E-health,60.472024,8.468946
+Empresa,Biohorma NV,Países Bajos,Farma,52.132633,5.291266
+Universidad,Maastricht University,Países Bajos,Otros,52.132633,5.291266
+Universidad,Acedemy of Physical Education,Poland,TIC,51.919438,19.145136
+Universidad,Akademia Gorniczo-Hutnicza,Poland,E-health,51.919438,19.145136
+Universidad,GDANSKI UNIWERSYTET MEDYCZNY,Poland,Farma,51.919438,19.145136
+Universidad,Institute of animal reproduction and food research polish academy of sciences,Poland,Otros,51.919438,19.145136
+Universidad,Medical University of Lodz,Poland,Otros,51.919438,19.145136
+Universidad,Medical University of Lodz,Poland,Otros,51.919438,19.145136
+Universidad,Medical University of Lodz ,Poland,Otros,51.919438,19.145136
+Universidad,Medical University of Wroclaw,Poland,Otros,51.919438,19.145136
+Universidad,Medical University of Wroclaw,Poland,Biotech (Diagnóstico y equipos médicos),51.919438,19.145136
+Universidad,Medical University of Wroclaw,Poland,Otros,51.919438,19.145136
+Universidad,Medical University of Wroclaw,Poland,Otros,51.919438,19.145136
+Universidad,Polish Academy of Sciences,Poland,Otros,51.919438,19.145136
+Universidad,Poznan University of Medical Sciences,Poland,Otros,51.919438,19.145136
+Universidad,"Śląski Uniwersytet Medyczny W Katowicach, ",Poland,Otros,51.919438,19.145136
+Centro Tecnológico,"Institute of Bioorganic Chemistry, Polish Academy of Sciences, Poznan Supercomputing and Networking Center (PSNC)",Poland,TIC,51.919438,19.145136
+Empresa,"Meticube Sistemas de Informação, Comunicação e Multimedia, Lda",Portugal,TIC,39.399872,-8.224454
+Empresa,"Meticube Sistemas de Informação, Comunicação e Multimedia, Lda",Portugal,TIC,39.399872,-8.224454
+Empresa,Tekever,Portugal,TIC,39.399872,-8.224454
+Universidad,Instituto de Patologia e Imunologia Molecular da Universidade do Porto,Portugal,Otros,39.399872,-8.224454
+Universidad,ISCTE - Instituto Universitario de Lisboa,Portugal,TIC,39.399872,-8.224454
+Universidad,Universidad do Minho,Portugal,TIC,39.399872,-8.224454
+Universidad,Universidade de Aveiro,Portugal,E-health,39.399872,-8.224454
+Universidad,Universidade do Porto,Portugal,TIC,39.399872,-8.224454
+Universidad,Universidade do Porto,Portugal,E-health,39.399872,-8.224454
+Universidad,Universidade do Porto ,Portugal,Farma,39.399872,-8.224454
+Universidad,Universidade Nova de Lisboa,Portugal,Otros,39.399872,-8.224454
+Universidad,University of Coimbra,Portugal,Otros,39.399872,-8.224454
+Empresa,Gilead,Reino Unido,Farma,55.378051,-3.435973
+Empresa,Phynova PLC,Reino Unido,Farma,55.378051,-3.435973
+Universidad,Charles University,República Checa,Otros,49.817492,15.472962
+Empresa,Agentia pentru Dezvoltare Regionala Nord-Est ADR-NE,Romania,Otros,45.943161,24.96676
+Empresa,Romsoft SRL RMS,Romania,TIC,45.943161,24.96676
+Universidad,"Universitatea de Medicina si Farmacie ‘Carol Davila’ Din Bucuresti, UMP-CD",Romania,Otros,45.943161,24.96676
+Universidad,"UNIVERSITATEA DE MEDICINA SI FARMACIE GR.T.POPA IASI U""PI",Romania,Otros,45.943161,24.96676
+Empresa,MediaSoft Ltd.,Slovenija,E-health,46.151241,14.995463
+Universidad,Slovak Medical University Bratislava,Slovenija,Otros,46.151241,14.995463
+Universidad,University Psychiatric Hospital Institute ,Slovenija,Otros,46.151241,14.995463
+Universidad,Univerza  V Ljubljani ,Slovenija,Medical Devices,46.151241,14.995463
+Centro Tecnológico,Institut Jozef Stefan,Slovenija,E-health,46.151241,14.995463
+Empresa,Androme Iberica,Spain,TIC,40.463667,-3.74922
+Empresa,France Telecom España-Orange Labs,Spain,TIC,40.463667,-3.74922
+Empresa,IMS Consulting Group,Spain,Otros,40.463667,-3.74922
+Empresa,Mondragon,Spain,Otros,40.463667,-3.74922
+Empresa,Telefonica I+D,Spain,TIC,40.463667,-3.74922
+Empresa,Telstar,Spain,Biotech (Diagnóstico y equipos médicos),40.463667,-3.74922
+Empresa,Novartis Pharma AG,Suiza,Farma,46.818188,8.227512
+Empresa,Alkit Communications (ALKIT),Sweden,TIC,60.128161,18.643501
+Empresa,Astra Zeneca,Sweden,Farma,60.128161,18.643501
+Empresa,Borderlight,Sweden,TIC,60.128161,18.643501
+Empresa,Fujirebio diagnostics AB,Sweden,Biotech (Diagnóstico y equipos médicos),60.128161,18.643501
+Empresa,Halo Genomics AB,Sweden,Biotech (Diagnóstico y equipos médicos),60.128161,18.643501
+Empresa,Mawell,Sweden,E-health,60.128161,18.643501
+Empresa,Phadia AB,Sweden,Farma,60.128161,18.643501
+Empresa,Sigolis AB,Sweden,Nanotech,60.128161,18.643501
+Empresa,Swedish Orphan Biovitrum,Sweden,Biotech (Diagnóstico y equipos médicos),60.128161,18.643501
+Empresa,Tanderberg,Sweden,TIC,60.128161,18.643501
+Empresa,Thermo Fisher Scientific,Sweden,Biotech (Diagnóstico y equipos médicos),60.128161,18.643501
+Universidad,Göteborg University,Sweden,Biotech (Diagnóstico y equipos médicos),60.128161,18.643501
+Universidad,Göteborg University,Sweden,Otros,60.128161,18.643501
+Universidad,Linköbing University,Sweden,E-health,60.128161,18.643501
+Universidad,Lunds Universitet,Sweden,Otros,60.128161,18.643501
+Universidad,Lunds Universitet,Sweden,Biotech (Diagnóstico y equipos médicos),60.128161,18.643501
+Universidad,Lunds Universitet,Sweden,Otros,60.128161,18.643501
+Universidad,Umea Universtet,Sweden,Otros,60.128161,18.643501
+Universidad,Umea Universtet ,Sweden,Otros,60.128161,18.643501
+Universidad,University of Gothenburg,Sweden,Otros,60.128161,18.643501
+Universidad,Uppsala Universitet,Sweden,Medical Devices,60.128161,18.643501
+Universidad,Uppsala Universitet,Sweden,Otros,60.128161,18.643501
+Centro Tecnológico,Royal Institute of Technology,Sweden,E-health,60.128161,18.643501
+Centro Tecnológico,Royal Institute of Technology,Sweden,Medical Devices,60.128161,18.643501
+Empresa,Amgen (Europe) GmbH,Switzerland,Farma,46.818188,8.227512
+Empresa,Genedata AG,Switzerland,Biotech (Diagnóstico y equipos médicos),46.818188,8.227512
+Empresa,Merck Serono,Switzerland,Farma,46.818188,8.227512
+Empresa,Nestle,Switzerland,Alimentación,46.818188,8.227512
+Empresa,Novartis Forschungsstiftung (Novartis Research Foundation),Switzerland,Farma,46.818188,8.227512
+Empresa,Roche,Switzerland,Farma,46.818188,8.227512
+Empresa,"The Residual Risk Reduction, Initiative Foundation (R3i)",Switzerland,Otros,46.818188,8.227512
+Universidad,Ecole Polytechnique Federale de Lausanne,Switzerland,TIC,46.818188,8.227512
+Universidad,Ecole Polytechnique Federale de Lausanne,Switzerland,TIC,46.818188,8.227512
+Universidad,Ecole Polytechnique Federale de Lausanne,Switzerland,Biotech (Diagnóstico y equipos médicos),46.818188,8.227512
+Universidad,Eidgenössische Technische hochschule Zurich,Switzerland,TIC,46.818188,8.227512
+Universidad,Uniklinik Balgrist - Zurich Universität,Switzerland,Otros,46.818188,8.227512
+Universidad,Universitaet Bern,Switzerland,Otros,46.818188,8.227512
+Universidad,Universität Bern,Switzerland,Otros,46.818188,8.227512
+Universidad,Universite de Geneve,Switzerland,TIC,46.818188,8.227512
+Universidad,Universite de Geneve,Switzerland,Biotech (Diagnóstico y equipos médicos),46.818188,8.227512
+Universidad,Universite de Geneve,Switzerland,Otros,46.818188,8.227512
+Universidad,Universite de Lausanne,Switzerland,Medical Devices,46.818188,8.227512
+Universidad,University of Basel,Switzerland,Biotech (Diagnóstico y equipos médicos),46.818188,8.227512
+Universidad,University of Basel,Switzerland,Otros,46.818188,8.227512
+Universidad,University of Zürich,Switzerland,Otros,46.818188,8.227512
+Universidad,University of Zürich,Switzerland,E-health,46.818188,8.227512
+Universidad,University of Zürich,Switzerland,Otros,46.818188,8.227512
+Universidad,University of Zürich,Switzerland,Otros,46.818188,8.227512
+Universidad,University of Zürich,Switzerland,Otros,46.818188,8.227512
+Centro Tecnológico,"CSEM, Centre suisse d'electronique et de microtechnique SA- Recerche et development",Switzerland,Medical Devices,46.818188,8.227512
+Empresa,Innova Technology(INNOVA),Turkey,TIC,38.963745,35.243322
+Empresa,SRDC Ltd.(Software Research and Development and Consultancy),Turkey,TIC,38.963745,35.243322
+Empresa,Vestel Electronics ,Turkey,TIC,38.963745,35.243322
+Universidad,Uludag University School of Medicine,Turkey,Otros,38.963745,35.243322
+Empresa,ANSYS EUROPE Ltd,UK,TIC,55.378051,-3.435973
+Empresa,Astra Zeneca,UK,Farma,55.378051,-3.435973
+Empresa,Astra Zeneca,UK,Farma,55.378051,-3.435973
+Empresa,Axordia Ltd.,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Beta Technology Limited,UK,Otros,55.378051,-3.435973
+Empresa,BlueGnome,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Cellix Ltd,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,"DNA Electronics, London",UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Edinburgh Instruments Ltd,UK,Nanotech,55.378051,-3.435973
+Empresa,Epos Iasis Research and Development Limited,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Euram Limited,UK,Otros,55.378051,-3.435973
+Empresa,Genome Research Limited,UK,Otros,55.378051,-3.435973
+Empresa,GSK,UK,Farma,55.378051,-3.435973
+Empresa,Horizon Discovery Limited ,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,InferMed Ltd.,UK,TIC,55.378051,-3.435973
+Empresa,Isis Innovation,UK,Otros,55.378051,-3.435973
+Empresa,iXscient Ltd -United Kingdom,UK,Otros,55.378051,-3.435973
+Empresa,Kbiosciences Ltd,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Kraya,UK,E-health,55.378051,-3.435973
+Empresa,Medical Device Consultancy (MDC),UK,Otros,55.378051,-3.435973
+Empresa,MRSolutions,UK,Industrial,55.378051,-3.435973
+Empresa,NEC EUROPE Ltd.,UK,TIC,55.378051,-3.435973
+Empresa,Oncomark Ltd,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Opsona Therapeutics Limited,UK,Farma,55.378051,-3.435973
+Empresa,Oxford Nanopore Technologies Ltd,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Oxford Nanopore Technologies Ltd,UK,Nanotech,55.378051,-3.435973
+Empresa,Proimmune Limited,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Proimmune Limited,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Sct Stem Cell Technologies Ltd.,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Sct Stem Cell Technologies Ltd.,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,SHS International,UK,Alimentación,55.378051,-3.435973
+Empresa,Smith & Nephew,UK,TIC,55.378051,-3.435973
+Empresa,Syngenta Limited,UK,Alimentación,55.378051,-3.435973
+Empresa,Tepnel Biosystems Limited,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,UCB research,UK,Farma,55.378051,-3.435973
+Empresa,Unilever UK Central Resources Limited,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Unilever UK Central Resources Limited,UK,Industrial,55.378051,-3.435973
+Universidad,Cardiovascular Epidemiology Unit-Dept of Public Health & Primary Care-University of Cambridge,UK,E-health,55.378051,-3.435973
+Universidad,Central Manchester and Manchester Children`s University Hospitals NHS Trust,UK,E-health,55.378051,-3.435973
+Universidad,"Imperial College of Science, Technology and Medicine",UK,Medical Devices,55.378051,-3.435973
+Universidad,"Imperial College of Science, Technology and Medicine",UK,E-health,55.378051,-3.435973
+Universidad,Institute of food research,UK,Otros,55.378051,-3.435973
+Universidad,"Katholieke Universiteit Leuven, The University of Liverpool",UK,Otros,55.378051,-3.435973
+Universidad,King's College London,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,King’s College London,UK,Otros,55.378051,-3.435973
+Universidad,Maastricht University,UK,Otros,55.378051,-3.435973
+Universidad,Oxford University,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,"Oxford University, Weatherall Institute of Molecular Medicine",UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,"Queen Mary and Westfield College, University of London",UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,"Queen Mary and Westfield College, University of London",UK,Otros,55.378051,-3.435973
+Universidad,Queensland University of Technology,UK,TIC,55.378051,-3.435973
+Universidad,Rothamsted Research,UK,Otros,55.378051,-3.435973
+Universidad,Sheffield Hallam University,UK,Otros,55.378051,-3.435973
+Universidad,"The Chancellor, Masters and Scholars of the University of Cambridge",UK,Otros,55.378051,-3.435973
+Universidad,"The Chancellor, masters and scholars of the university of Oxford",UK,TIC,55.378051,-3.435973
+Universidad,"The Chancellor, masters and scholars of the university of Oxford",UK,TIC,55.378051,-3.435973
+Universidad,The Open University,UK,TIC,55.378051,-3.435973
+Universidad,The University of Newcastle upon Tyne,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,Universidad de Cambridge,UK,Otros,55.378051,-3.435973
+Universidad,"Universidad de Cambridge, Institute of Metabolic Science",UK,Otros,55.378051,-3.435973
+Universidad,University College London,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University College London,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University College London,UK,Otros,55.378051,-3.435973
+Universidad,University College London,UK,Otros,55.378051,-3.435973
+Universidad,University College London ,UK,Otros,55.378051,-3.435973
+Universidad,University College London              ,UK,E-health,55.378051,-3.435973
+Universidad,University College London Cancer Institute,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University Glasgow,UK,Otros,55.378051,-3.435973
+Universidad,University of Birmingham,UK,TIC,55.378051,-3.435973
+Universidad,University of Birmingham,UK,Otros,55.378051,-3.435973
+Universidad,University of Bristol ,UK,Otros,55.378051,-3.435973
+Universidad,University of British Columbia,UK,Otros,55.378051,-3.435973
+Universidad,University of Brunel,UK,TIC,55.378051,-3.435973
+Universidad,University of Cambridge,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University of Cambridge,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University of Cambridge,UK,Medical Devices,55.378051,-3.435973
+Universidad,University of Cambridge,UK,Otros,55.378051,-3.435973
+Universidad,University of Dundee,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University of East Anglia,UK,Otros,55.378051,-3.435973
+Universidad,University of Edinburgh,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University of Edinburgh,UK,Otros,55.378051,-3.435973
+Universidad,University of Glasgow,UK,Otros,55.378051,-3.435973
+Universidad,University of Glasgow ,UK,Otros,55.378051,-3.435973
+Universidad,University of Leeds,UK,Otros,55.378051,-3.435973
+Universidad,University of Liverpool,UK,Otros,55.378051,-3.435973
+Universidad,University of Luton,UK,TIC,55.378051,-3.435973
+Universidad,University of Manchester,UK,Otros,55.378051,-3.435973
+Universidad,University of Manchester Uman ,UK,Otros,55.378051,-3.435973
+Universidad,University of Newcastle Upon Tyne,UK,Otros,55.378051,-3.435973
+Universidad,University of Oxford,UK,Otros,55.378051,-3.435973
+Universidad,University of Oxford,UK,Otros,55.378051,-3.435973
+Universidad,University of Oxford ,UK,Otros,55.378051,-3.435973
+Universidad,University of Sheffield,UK,TIC,55.378051,-3.435973
+Universidad,University of Sheffield,UK,Otros,55.378051,-3.435973
+Universidad,University of Sheffield,UK,Otros,55.378051,-3.435973
+Universidad,University of Southampton,UK,Otros,55.378051,-3.435973
+Universidad,University of Surrey ,UK,Otros,55.378051,-3.435973
+Universidad,University of Sussex,UK,E-health,55.378051,-3.435973
+Universidad,Univesity of Oxford,UK,Industrial,55.378051,-3.435973
+Centro Tecnológico,European Bioinformatics Institute (EBI),UK,TIC,55.378051,-3.435973
+Centro Tecnológico,NHS,UK,TIC,55.378051,-3.435973
+Centro Tecnológico,Wellcome Trust Institute,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Universidad,University of Bristol ,UK,Biotech (Diagnóstico y equipos médicos),55.378051,-3.435973
+Empresa,Shire,United Kingdom,Farma,55.378051,-3.435973
+Empresa,Tyco Healthcare Group LP,United Kingdom,Medical Devices,55.378051,-3.435973
+Universidad,University of Oxford,United Kingdom,Farma,55.378051,-3.435973
+Empresa,Almac Diagnostics,USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Empresa,ASI Instruments,USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Empresa,Baxter,USA,Farma,37.09024,-95.712891
+Empresa,"Bracco Diagnostics, Inc",USA,Medical Devices,37.09024,-95.712891
+Empresa,Bristol Myers Squibb,USA,Farma,37.09024,-95.712891
+Empresa,Celera Corporation,USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Empresa,Covidien,USA,Medical Devices,37.09024,-95.712891
+Empresa,GE Healthcare Ltd.,USA,Medical Devices,37.09024,-95.712891
+Empresa,GE Healthcare Ltd.,USA,Industrial,37.09024,-95.712891
+Empresa,Lilly,USA,Farma,37.09024,-95.712891
+Empresa,Medtronic,USA,Medical Devices,37.09024,-95.712891
+Empresa,Metabolon Inc Corporation,USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Empresa,Miltenyi Biotechnologische Forschung Gmbh,USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Empresa,Partners Healthcare,USA,Otros,37.09024,-95.712891
+Empresa,Pfizer,USA,Farma,37.09024,-95.712891
+Empresa,"Pfizer, Inc",USA,Farma,37.09024,-95.712891
+Empresa,"Pfizer, Inc",USA,Farma,37.09024,-95.712891
+Empresa,Phillips Healthcare,USA,Medical Devices,37.09024,-95.712891
+Empresa,"Pioneer Hi-Bred International, INC",USA,TIC,37.09024,-95.712891
+Empresa,The Broad Institute Inc Corporation,USA,Otros,37.09024,-95.712891
+Empresa,Thermo Fisher Scientific,USA,Medical Devices,37.09024,-95.712891
+Universidad,Boston University,USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Universidad,Harvard University,USA,Medical Devices,37.09024,-95.712891
+Universidad,"Indiana University, Bloomington",USA,Otros,37.09024,-95.712891
+Universidad,Johns Hopkins University Jhu,USA,Otros,37.09024,-95.712891
+Universidad,Johns Hopkins University Jhu,USA,Otros,37.09024,-95.712891
+Universidad,Mount Sinai School of Medicine. NYC,USA,E-health,37.09024,-95.712891
+Universidad,NIH,USA,Otros,37.09024,-95.712891
+Universidad,Pittsburg University Medical Center,USA,Medical Devices,37.09024,-95.712891
+Universidad,Purdue University,USA,Otros,37.09024,-95.712891
+Universidad,SSIM Institute de la Universidad de Wayne State ,USA,TIC,37.09024,-95.712891
+Universidad,Universidad de California San Francisco,USA,Medical Devices,37.09024,-95.712891
+Universidad,Universidad de Chicago,USA,Otros,37.09024,-95.712891
+Universidad,Universidad de Michigan,USA,Otros,37.09024,-95.712891
+Universidad,Universidad de Minnesota,USA,Otros,37.09024,-95.712891
+Universidad,Universidad de Pittsburgh ,USA,Otros,37.09024,-95.712891
+Universidad,University of California,USA,Otros,37.09024,-95.712891
+Universidad,University of California,USA,TIC,37.09024,-95.712891
+Universidad,University of Maryland School of Medicine,USA,Otros,37.09024,-95.712891
+Universidad,University of Tennessee,USA,TIC,37.09024,-95.712891
+Universidad,University of UTAH,USA,E-health,37.09024,-95.712891
+Universidad,"Washington University, Saint Louis Missouri",USA,Biotech (Diagnóstico y equipos médicos),37.09024,-95.712891
+Universidad,Western University of Health Sciences,USA,E-health,37.09024,-95.712891
