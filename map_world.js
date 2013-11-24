@@ -16,23 +16,23 @@ var geo = L.geoJson(data, {
 
     var props = feature.properties;
 
-    for (ac in props.area_clinica) {
-      var area = props.area_clinica[ac];
+    for (s in props.sector) {
+      var sector = props.sector[s];
 
       // Popup HTML
-      var html = props.data.institucion.standard;
+      var html = props.data.institucion;
         // 'Descripción: ' + props.data.proyecto.descripcion;
       layer.bindPopup(html);
-      layer.bindLabel(props.data.institucion.standard, {noHide: true});
+      layer.bindLabel(props.data.institucion, {noHide: true});
       // layer.bindLabel(props.data.institucion.standard);
 
 
       // Add to the correct area layer group
-      if (!groups2.hasOwnProperty(area)) {
-        groups2[area] = [];
+      if (!groups2.hasOwnProperty(sector)) {
+        groups2[sector] = [];
       }
 
-      groups2[area].push(layer);
+      groups2[sector].push(layer);
     }
   }
 });
@@ -117,8 +117,8 @@ function drawTable() {
 
       var row = $('<tr></tr>');
 
-      var col1 = $('<td></td>').text(data.institucion.original);
-      var col2 = $('<td></td>').text(l2.feature.properties.area_clinica.join(', '));
+      var col1 = $('<td></td>').text(data.institucion);
+      var col2 = $('<td></td>').text(l2.feature.properties.sector.join(', '));
 
 
       row.append(col1);
