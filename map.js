@@ -15,22 +15,25 @@ var geo = L.geoJson(data, {
     layer._latlng.lng = tmp;
 
     var props = feature.properties;
-    var area = props.area_clinica;
 
-    // Popup HTML
-    var html = props.data.insticucion.standard;
-      // 'Descripción: ' + props.data.proyecto.descripcion;
-    layer.bindPopup(html);
-    layer.bindLabel(props.data.insticucion.standard, {noHide: true});
-    // layer.bindLabel(props.data.insticucion.standard);
+    for (ac in props.area_clinica) {
+      var area = props.area_clinica[ac];
+
+      // Popup HTML
+      var html = props.data.institucion.standard;
+        // 'Descripción: ' + props.data.proyecto.descripcion;
+      layer.bindPopup(html);
+      layer.bindLabel(props.data.institucion.standard, {noHide: true});
+      // layer.bindLabel(props.data.institucion.standard);
 
 
-    // Add to the correct area layer group
-    if (!groups2.hasOwnProperty(area)) {
-      groups2[area] = [];
+      // Add to the correct area layer group
+      if (!groups2.hasOwnProperty(area)) {
+        groups2[area] = [];
+      }
+
+      groups2[area].push(layer);
     }
-
-    groups2[area].push(layer);
   }
 });
 
@@ -68,7 +71,7 @@ map.on('overlayremove', function(layer) {
   var name = getNameFromLayerGroup(layer.name);
   delete layers[name];
   drawTable();
-  drawCluster(); 
+  drawCluster();
 });
 
 map.on('overlayadd', function(layer) {
@@ -114,7 +117,7 @@ function drawTable() {
 
       var row = $('<tr></tr>');
 
-      var col1 = $('<td></td>').text(data.insticucion.original);
+      var col1 = $('<td></td>').text(data.institucion.original);
       var col2 = $('<td></td>').text(l2.feature.properties.area_clinica);
 
 
