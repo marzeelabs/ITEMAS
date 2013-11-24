@@ -66,7 +66,7 @@ collection_in.find().sort({"_id" : 1}).forEach(function(doc){
         area_clinica: parse_area_clinica(doc.area_clinica),
         data: {
           responsable: doc.responsable,
-          insticucion: {
+          institucion: {
             original: doc.institucion_original,
             standard: doc.institucion_standard
           },
