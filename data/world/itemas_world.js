@@ -76,6 +76,7 @@ collection_in.find().sort({"_id" : 1}).forEach(function(doc){
       properties: {
         sector: parse_sector(doc.sector),
         data: {
+          institucion: doc.institucion,
           pais: doc.pais,
           tipo_entidad: doc.tipo_entidad,
           numero_proyectos: 1

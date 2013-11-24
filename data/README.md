@@ -19,3 +19,5 @@ $ mongoimport --db itemas --collection itemas_world_in --type csv  --file world/
 $ mongo world/itemas_world.js
 $ mongoexport --db itemas --collection itemas_world_out --out world/itemas_world_final.json --jsonArray
 ```
+
+Copy the JsonArray generated in `world/itemas_world_final.json` to replace `features` sub-object in `itemas_world_final_single.geojson`, located in `data` folder.
