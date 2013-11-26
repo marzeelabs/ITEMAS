@@ -8,9 +8,14 @@
   overflow: hidden;
 }
 
-/* Custom container */
-.container-full {
-  margin: 0 auto;
-  width: 100%;
-  padding: 0 15px;
+.leaflet-sidebar {
+  width: 35%;
+}
+
+.leaflet-sidebar.left {
+  left: -40%;
+}
+
+.leaflet-sidebar.left.visible ~ .leaflet-left {
+  left: 35%;
 }
