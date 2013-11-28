@@ -7,8 +7,6 @@ var markers = new L.MarkerClusterGroup();
 
 var geo = L.geoJson(data, {
   onEachFeature: function(feature, layer) {
-    // console.debug(feature);
-
     // Fix lat/lng
     var tmp = layer._latlng.lat;
     layer._latlng.lat = layer._latlng.lng;
@@ -24,8 +22,6 @@ var geo = L.geoJson(data, {
         // 'Descripción: ' + props.data.proyecto.descripcion;
       layer.bindPopup(html);
       layer.bindLabel(props.data.institucion.standard, {noHide: true});
-      // layer.bindLabel(props.data.institucion.standard);
-
 
       // Add to the correct area layer group
       if (!groups2.hasOwnProperty(area)) {
@@ -37,16 +33,21 @@ var geo = L.geoJson(data, {
   }
 });
 
+// Sort layers alphabetically (ignore lowercase)
+keys = Object.keys(groups2)
+keys.sort(function(a,b) {
+  return a.toLowerCase().localeCompare(b.toLowerCase());
+});
+
 // Prepare groups
-for (g in groups2) {
-  var label = g + " (" + groups2[g].length + ")";
+for (var i=0; i<keys.length; i++) {
+  var label = keys[i] + " (" + groups2[keys[i]].length + ")";
   groups[label] = L.layerGroup();
 }
 
 var map = L.map('map', {
   center: [40.47, -3.59],
   zoom: 6
-  // layers: groups['Hepatología (6)']
 });
 
 
@@ -55,10 +56,6 @@ var sidebar = L.control.sidebar('sidebar', {
     position: 'left'
 });
 map.addControl(sidebar);
-
-// setTimeout(function () {
-//     sidebar.show();
-// }, 500);
 
 // new L.Control.GeoSearch({
 //   provider: new L.GeoSearch.Provider.Google(),
@@ -76,7 +73,7 @@ var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{
 map.addLayer(markers);
 
 // Add empty layers to the map
-L.control.layers([],groups).addTo(map);
+L.control.layers([],groups, {collapsed: false}).addTo(map);
 
 map.on('overlayremove', function(layer) {
   var name = getNameFromLayerGroup(layer.name);
@@ -92,7 +89,6 @@ map.on('overlayadd', function(layer) {
   drawCluster();
   sidebar.show();
 });
-
 
 function drawCluster() {
   markers.clearLayers();
@@ -110,7 +106,7 @@ function drawTable() {
   var thead = $('<thead></thead');
   var tr = $('<tr></tr>');
 
-  columns = ['Institución', 'Área Clínica']
+  columns = ['Institución', 'Número de Proyectos']
   columns.forEach(function(k) {
     var th = $('<th></th>').text(k);
     tr.append(th);
@@ -130,14 +126,12 @@ function drawTable() {
       var row = $('<tr></tr>');
 
       var col1 = $('<td></td>').text(data.institucion.original);
-      var col2 = $('<td></td>').text(l2.feature.properties.area_clinica.join(', '));
-
+      var col2 = $('<td></td>').text(l2.feature.properties.data.numero_proyectos);
 
       row.append(col1);
       row.append(col2);
 
       tbody.append(row);
-
     };
   }
 
