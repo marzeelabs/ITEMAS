@@ -49,6 +49,17 @@ var map = L.map('map', {
   // layers: groups['Hepatología (6)']
 });
 
+
+var sidebar = L.control.sidebar('sidebar', {
+    closeButton: true,
+    position: 'left'
+});
+map.addControl(sidebar);
+
+// setTimeout(function () {
+//     sidebar.show();
+// }, 500);
+
 // new L.Control.GeoSearch({
 //   provider: new L.GeoSearch.Provider.Google(),
 //   zoomLevel: 12,
@@ -79,6 +90,7 @@ map.on('overlayadd', function(layer) {
   layers[name] = 1;
   drawTable();
   drawCluster();
+  sidebar.show();
 });
 
 
