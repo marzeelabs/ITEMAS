@@ -106,7 +106,7 @@ function drawTable() {
   var thead = $('<thead></thead');
   var tr = $('<tr></tr>');
 
-  columns = ['Institución', 'Número de Proyectos']
+  columns = ['Institución', 'Áreas y Proyectos']
   columns.forEach(function(k) {
     var th = $('<th></th>').text(k);
     tr.append(th);
@@ -126,7 +126,7 @@ function drawTable() {
       var row = $('<tr></tr>');
 
       var col1 = $('<td></td>').text(data.institucion.original);
-      var col2 = $('<td></td>').text(l2.feature.properties.data.numero_proyectos);
+      var col2 = $('<td></td>').text(l2.feature.properties.area_clinica_print);
 
       row.append(col1);
       row.append(col2);
