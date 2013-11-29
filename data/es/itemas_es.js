@@ -23,11 +23,6 @@ function parse_area_clinica(area_clinica) {
     }
   );
 
-  // delete the repeated values
-  area_clinica_array = area_clinica_array.filter(function (e, i, arr) {
-    return arr.lastIndexOf(e) === i;
-  });
-
   return area_clinica_array;
 }
 
@@ -94,6 +89,27 @@ collection_in.find().sort({"_id" : 1}).forEach(function(doc){
 
 // save in the new collection
 for (i in instituciones) {
+  // format areas clinicas with # of projects
+  var areas_clinicas = {};
+  for (ac in instituciones[i].properties.area_clinica) {
+    var area_clinica = instituciones[i].properties.area_clinica[ac];
+    if (!(area_clinica in areas_clinicas)) {
+      areas_clinicas[area_clinica] = 0;
+    }
+    areas_clinicas[area_clinica]++;
+  }
+  instituciones[i].properties.area_clinica_print = [];
+  for (ac in areas_clinicas) {
+    instituciones[i].properties.area_clinica_print.push(ac + ' (' + areas_clinicas[ac] + ')');
+  }
+  instituciones[i].properties.area_clinica_print = instituciones[i].properties.area_clinica_print.sort();
+
+  // delete the repeated values from area clinica
+  instituciones[i].properties.area_clinica = instituciones[i].properties.area_clinica.filter(function (e, i, arr) {
+    return arr.lastIndexOf(e) === i;
+  });
+
+  // save the object
   collection_out.save(instituciones[i]);
 };
 
