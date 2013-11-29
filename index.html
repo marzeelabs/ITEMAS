@@ -16,11 +16,8 @@
   <script src="lib/tablesorter/js/jquery.tablesorter.widgets.js"></script>
 
   <!-- Leaflet -->
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
- <!--[if lte IE 8]>
-     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
- <![endif]-->
-  <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+  <link rel="stylesheet" href="lib/leaflet/leaflet.css" />
+  <script src="lib/leaflet/leaflet.js"></script>
 
   <!-- Leaflet geosearch -->
   <script src="lib/L.GeoSearch/js/l.control.geosearch.js"></script>
@@ -40,21 +37,22 @@
   <!-- Data -->
   <script src="data/itemas_es_final_single.geojson" type="text/javascript"></script>
 
+  <!-- Leaflet sidebar -->
+  <link rel="stylesheet" href="lib/leaflet-sidebar/src/L.Control.Sidebar.css" />
+  <script src="lib/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+  
+
   <!-- General styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-  <div class="container-full">
-    <div class="container">
-      <div class="row">
-        <div id="map" class="col-lg-6" style="height: 600px; position: relative;"></div>
-        <div id="table-wrapper" class="col-lg-6"></div>
-      </div>
-    </div>
+  <div id="map" style="height: 750px; position: relative;"></div>
+  <div id="sidebar">
+    <h3>Red Itemas</h3>
+    <div id="table-wrapper"></div>
+    &copy; <a href="http://openconsortium.eu">Open Consortium</a>, 2013
   </div>
-
 </body>
 
 <!-- The main JS script -->
