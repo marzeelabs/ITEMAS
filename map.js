@@ -106,7 +106,7 @@ function drawTable() {
   var thead = $('<thead></thead');
   var tr = $('<tr></tr>');
 
-  columns = ['Institución', 'Áreas y Proyectos']
+  columns = ['Institución', 'Número de Proyectos', 'Áreas y Proyectos']
   columns.forEach(function(k) {
     var th = $('<th></th>').text(k);
     tr.append(th);
@@ -116,22 +116,32 @@ function drawTable() {
   table.append(thead);
 
   var tbody = $('<tbody></tbody>');
+
+  // Loop through the layers, and only print unique rows
+  var unique = {};
   for (l in layers) {
 
     for (i = 0, len = groups2[l].length; i < len; i++) {
       l2 = groups2[l][i];
 
-      data = l2.feature.properties.data;
+      var oid = l2.feature._id.$oid;
+      if (!unique.hasOwnProperty(oid)) {
+        unique[oid] = 1;
 
-      var row = $('<tr></tr>');
+        data = l2.feature.properties.data;
 
-      var col1 = $('<td></td>').text(data.institucion.original);
-      var col2 = $('<td></td>').text(l2.feature.properties.area_clinica_print);
+        var row = $('<tr></tr>');
 
-      row.append(col1);
-      row.append(col2);
+        var col1 = $('<td></td>').text(data.institucion.original);
+        var col2 = $('<td></td>').text(data.numero_proyectos);
+        var col3 = $('<td></td>').text(l2.feature.properties.area_clinica_print);
 
-      tbody.append(row);
+        row.append(col1);
+        row.append(col2);
+        row.append(col3);
+
+        tbody.append(row);
+      }
     };
   }
 
