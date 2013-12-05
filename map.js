@@ -50,7 +50,6 @@ var map = L.map('map', {
   zoom: 6
 });
 
-
 var sidebar = L.control.sidebar('sidebar', {
     closeButton: true,
     position: 'left'

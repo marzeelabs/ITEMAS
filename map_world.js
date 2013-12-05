@@ -26,6 +26,10 @@ var geo = L.geoJson(data, {
       layer.bindLabel(props.data.institucion, {noHide: true});
       // layer.bindLabel(props.data.institucion.standard);
 
+      // Ugly hotfix on the naming
+      if (sector == 'Biotech (Diagnóstico y equipos médicos)') {
+        sector = 'Biotech - Diagnóstico y equipos médicos';
+      }
 
       // Add to the correct area layer group
       if (!groups2.hasOwnProperty(sector)) {
@@ -37,17 +41,34 @@ var geo = L.geoJson(data, {
   }
 });
 
+// // Prepare groups
+// for (g in groups2) {
+//   var label = g + " (" + groups2[g].length + ")";
+//   groups[label] = L.layerGroup();
+// }
+
+// Sort layers alphabetically (ignore lowercase)
+keys = Object.keys(groups2)
+keys.sort(function(a,b) {
+  return a.toLowerCase().localeCompare(b.toLowerCase());
+});
+
 // Prepare groups
-for (g in groups2) {
-  var label = g + " (" + groups2[g].length + ")";
+for (var i=0; i<keys.length; i++) {
+  var label = keys[i] + " (" + groups2[keys[i]].length + ")";
   groups[label] = L.layerGroup();
 }
 
 var map = L.map('map', {
-  center: [40.47, -3.59],
-  zoom: 6
-  // layers: groups['Hepatología (6)']
+  center: [48, 9],
+  zoom: 3
 });
+
+var sidebar = L.control.sidebar('sidebar', {
+    closeButton: true,
+    position: 'left'
+});
+map.addControl(sidebar);
 
 // new L.Control.GeoSearch({
 //   provider: new L.GeoSearch.Provider.Google(),
@@ -65,7 +86,7 @@ var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{
 map.addLayer(markers);
 
 // Add empty layers to the map
-L.control.layers([],groups).addTo(map);
+L.control.layers([],groups, {collapsed: false}).addTo(map);
 
 map.on('overlayremove', function(layer) {
   var name = getNameFromLayerGroup(layer.name);
@@ -79,6 +100,7 @@ map.on('overlayadd', function(layer) {
   layers[name] = 1;
   drawTable();
   drawCluster();
+  sidebar.show();
 });
 
 
