@@ -62,11 +62,16 @@ map.addControl(sidebar);
 //   searchLabel: "buscar..."
 // }).addTo(map);
 
-var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
-  // attribution: 'Developed by <a href="http://marzeelabs.org" target="_blank">Marzee Labs</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-  attribution: '<b>Developed by <a href="http://openconsortium.eu/" target="_blank" class="oc-logo">Open Consortium</a>.</b> Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
-  key: 'BC9A493B41014CAABB98F0471D759707',
-  styleId: 22677
+// var cloudmade = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/{styleId}/256/{z}/{x}/{y}.png', {
+//   // attribution: 'Developed by <a href="http://marzeelabs.org" target="_blank">Marzee Labs</a>. Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+//   attribution: '<b>Developed by <a href="http://openconsortium.eu/" target="_blank" class="oc-logo">Open Consortium</a>.</b> Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+//   key: 'BC9A493B41014CAABB98F0471D759707',
+//   styleId: 22677
+// }).addTo(map);
+
+// add an OpenStreetMap tile layer
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 map.addLayer(markers);
